@@ -1,0 +1,130 @@
+﻿<Window x:Class="Checkers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="680" Width="800" ResizeMode="CanMinimize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="422*" />
+            <RowDefinition Height="219*" />
+        </Grid.RowDefinitions>
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="34,37,0,0" Name="border1" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7"></Border>
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="105,37,0,0" Name="border2" VerticalAlignment="Top" Width="70" Background="#CDAB3E00"></Border>
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="176,37,0,0" Name="border3" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="247,37,0,0" Name="border4" VerticalAlignment="Top" Width="70" Background="#CDAB3E00"></Border>
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="34,108,0,0" Name="border5" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="105,108,0,0" Name="border6" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="176,108,0,0" Name="border7" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="247,108,0,0" Name="border8" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="318,37,0,0" Name="border9" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="389,37,0,0" Name="border10" VerticalAlignment="Top" Width="70" Background="#CDAB3E00"></Border>
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="460,37,0,0" Name="border11" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="531,37,0,0" Name="border12" VerticalAlignment="Top" Width="70" Background="#CDAB3E00"></Border>
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="318,108,0,0" Name="border13" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="389,108,0,0" Name="border14" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="460,108,0,0" Name="border15" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="531,108,0,0" Name="border16" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="34,179,0,0" Name="border17" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="105,179,0,0" Name="border18" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="176,179,0,0" Name="border19" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="247,179,0,0" Name="border20" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="34,250,0,0" Name="border21" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="105,250,0,0" Name="border22" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="176,250,0,0" Name="border23" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="247,250,0,0" Name="border24" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="318,179,0,0" Name="border25" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="389,179,0,0" Name="border26" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="460,179,0,0" Name="border27" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="531,179,0,0" Name="border28" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="318,250,0,0" Name="border29" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="389,250,0,0" Name="border30" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="460,250,0,0" Name="border31" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="531,250,0,0" Name="border32" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="34,321,0,0" Name="border33" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="105,321,0,0" Name="border34" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="176,321,0,0" Name="border35" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="247,321,0,0" Name="border36" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="34,392,0,0" Name="border37" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.RowSpan="2" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="105,392,0,0" Name="border38" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.RowSpan="2" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="176,392,0,0" Name="border39" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.RowSpan="2" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="247,392,0,0" Name="border40" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.RowSpan="2" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="318,321,0,0" Name="border41" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="389,321,0,0" Name="border42" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="460,321,0,0" Name="border43" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="531,321,0,0" Name="border44" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="318,392,0,0" Name="border45" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.RowSpan="2" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="389,392,0,0" Name="border46" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.RowSpan="2" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="460,392,0,0" Name="border47" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.RowSpan="2" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="531,392,0,0" Name="border48" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.RowSpan="2" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="34,41,0,0" Name="border49" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.Row="1" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="105,41,0,0" Name="border50" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.Row="1" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="176,41,0,0" Name="border51" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.Row="1" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="247,41,0,0" Name="border52" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.Row="1" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="34,112,0,0" Name="border53" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.Row="1"></Border>
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="105,112,0,0" Name="border54" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.Row="1"></Border>
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="176,112,0,0" Name="border55" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.Row="1" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="247,112,0,0" Name="border56" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.Row="1" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="318,41,0,0" Name="border57" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.Row="1" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="389,41,0,0" Name="border58" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.Row="1" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="460,41,0,0" Name="border59" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.Row="1" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="531,41,0,0" Name="border60" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.Row="1" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="318,112,0,0" Name="border61" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.Row="1" />
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="389,112,0,0" Name="border62" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.Row="1" />
+        <Border BorderBrush="Silver" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="460,112,0,0" Name="border63" VerticalAlignment="Top" Width="70" Background="#CDAB3E00" Grid.Row="1"></Border>
+        <Border BorderBrush="#FFF2EFEF" BorderThickness="1" Height="70" HorizontalAlignment="Left" Margin="531,112,0,0" Name="border64" VerticalAlignment="Top" Width="70" Background="#FFC7C7C7" Grid.Row="1"></Border>
+        <Rectangle HorizontalAlignment="Left" Fill="Silver" Name="border65" Margin="10,10,0,10" Grid.RowSpan="2"></Rectangle>
+        <Ellipse Fill="#FFD48900" Height="60" Name="ellipse1" Stroke="Black" Width="60" Margin="109,40,609,322" />
+        <Ellipse Fill="#FFC78A14" Margin="119,49,619,330" Name="ellipse2" Stroke="Black" />
+        <Ellipse Fill="#FFD48900" Height="60" Margin="250,40,468,322" Name="ellipse3" Stroke="Black" Width="60" />
+        <Ellipse Fill="#FFC78A14" Margin="260,49,478,330" Name="ellipse4" Stroke="Black" />
+        <Ellipse Fill="#FFD48900" Height="60" Margin="394,40,324,322" Name="ellipse5" Stroke="Black" Width="60" />
+        <Ellipse Fill="#FFC78A14" Margin="404,49,334,330" Name="ellipse6" Stroke="Black" />
+        <Ellipse Fill="#FFD48900" Height="60" Margin="538,40,180,322" Name="ellipse7" Stroke="Black" Width="60" />
+        <Ellipse Fill="#FFC78A14" Margin="548,49,190,330" Name="ellipse8" Stroke="Black" />
+        <Ellipse Fill="#FFD48900" Height="60" Margin="37,113,681,249" Name="ellipse9" Stroke="Black" Width="60" />
+        <Ellipse Fill="#FFC78A14" Margin="47,122,691,257" Name="ellipse10" Stroke="Black" />
+        <Ellipse Fill="#FFD48900" Height="60" Margin="180,113,538,249" Name="ellipse11" Stroke="Black" Width="60" />
+        <Ellipse Fill="#FFC78A14" Margin="190,122,548,257" Name="ellipse12" Stroke="Black" />
+        <Ellipse Fill="#FFD48900" Height="60" Margin="322,113,396,249" Name="ellipse13" Stroke="Black" Width="60" />
+        <Ellipse Fill="#FFC78A14" Margin="332,122,406,257" Name="ellipse14" Stroke="Black" />
+        <Ellipse Fill="#FFD48900" Height="60" Margin="465,113,253,249" Name="ellipse15" Stroke="Black" Width="60" />
+        <Ellipse Fill="#FFC78A14" Margin="475,122,263,257" Name="ellipse16" Stroke="Black" />
+        <Ellipse Fill="#FFD48900" Height="60" Margin="538,183,180,179" Name="ellipse17" Stroke="Black" Width="60" />
+        <Ellipse Fill="#FFC78A14" Margin="548,192,190,187" Name="ellipse18" Stroke="Black" />
+        <Ellipse Fill="#FFD48900" Height="60" Margin="109,183,609,179" Name="ellipse19" Stroke="Black" Width="60" />
+        <Ellipse Fill="#FFC78A14" Margin="119,192,619,187" Name="ellipse20" Stroke="Black" />
+        <Ellipse Fill="#FFD48900" Height="60" Margin="250,183,468,179" Name="ellipse21" Stroke="Black" Width="60" />
+        <Ellipse Fill="#FFC78A14" Margin="260,192,478,187" Name="ellipse22" Stroke="Black" />
+        <Ellipse Fill="#FFD48900" Height="60" Margin="394,183,324,179" Name="ellipse23" Stroke="Black" Width="60" />
+        <Ellipse Fill="#FFC78A14" Margin="404,192,334,187" Name="ellipse24" Stroke="Black" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="37,117,681,42" Name="ellipse25" Stroke="Black" Width="60" Grid.Row="1" />
+        <Ellipse Fill="#FFB4A68A" Margin="47,126,691,50" Name="ellipse26" Stroke="Black" Grid.Row="1" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="180,117,538,42" Name="ellipse27" Stroke="Black" Width="60" Grid.Row="1" />
+        <Ellipse Fill="#FFB4A68A" Margin="190,126,548,50" Name="ellipse28" Stroke="Black" Grid.Row="1" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="322,117,396,42" Name="ellipse29" Stroke="Black" Width="60" Grid.Row="1" />
+        <Ellipse Fill="#FFB4A68A" Margin="332,126,406,50" Name="ellipse30" Stroke="Black" Grid.Row="1" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="465,117,253,42" Name="ellipse31" Stroke="Black" Width="60" Grid.Row="1" />
+        <Ellipse Fill="#FFB4A68A" Margin="475,126,263,50" Name="ellipse32" Stroke="Black" Grid.Row="1" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="37,397,681,184" Name="ellipse33" Stroke="Black" Width="60" Grid.RowSpan="2" MouseUp="ellipse34_MouseUp" />
+        <Ellipse Fill="#FFB4A68A" Margin="47,0,691,192" Name="ellipse34" Stroke="Black" Height="43" VerticalAlignment="Bottom" Grid.RowSpan="2" MouseUp="ellipse34_MouseUp" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="180,397,538,184" Name="ellipse35" Stroke="Black" Width="60" Grid.RowSpan="2" />
+        <Ellipse Fill="#FFB4A68A" Margin="190,406,548,192" Name="ellipse36" Stroke="Black" Grid.RowSpan="2" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="322,397,396,184" Name="ellipse37" Stroke="Black" Width="60" Grid.RowSpan="2" />
+        <Ellipse Fill="#FFB4A68A" Margin="332,406,406,192" Name="ellipse38" Stroke="Black" Grid.RowSpan="2" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="465,397,253,184" Name="ellipse39" Stroke="Black" Width="60" Grid.RowSpan="2" />
+        <Ellipse Fill="#FFB4A68A" Margin="475,406,263,192" Name="ellipse40" Stroke="Black" Grid.RowSpan="2" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="109,47,609,112" Name="ellipse41" Stroke="Black" Width="60" Grid.Row="1" />
+        <Ellipse Fill="#FFB4A68A" Margin="119,56,619,120" Name="ellipse42" Stroke="Black" Grid.Row="1" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="250,47,468,112" Name="ellipse43" Stroke="Black" Width="60" Grid.Row="1" />
+        <Ellipse Fill="#FFB4A68A" Margin="260,56,478,120" Name="ellipse44" Stroke="Black" Grid.Row="1" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="394,47,324,112" Name="ellipse45" Stroke="Black" Width="60" Grid.Row="1" />
+        <Ellipse Fill="#FFB4A68A" Margin="404,56,334,120" Name="ellipse46" Stroke="Black" Grid.Row="1" />
+        <Ellipse Fill="#FFFFF5E8" Height="60" Margin="538,47,180,112" Name="ellipse47" Stroke="Black" Width="60" Grid.Row="1" />
+        <Ellipse Fill="#FFB4A68A" Margin="548,56,190,120" Name="ellipse48" Stroke="Black" Grid.Row="1" />
+        <Ellipse Height="60" HorizontalAlignment="Left" Margin="652,260,0,0" Name="ellipse49" Stroke="Black" VerticalAlignment="Top" Width="60" Fill="#FFD1D1D1" />
+        <Ellipse Height="50" Margin="657,265,71,0" Name="ellipse50" Stroke="Black" VerticalAlignment="Top" StrokeThickness="2" />
+        <Ellipse Height="30" HorizontalAlignment="Left" Margin="667,275,0,0" Name="ellipse51" Stroke="Black" VerticalAlignment="Top" Width="30" StrokeThickness="0.5" Fill="#FFC4C2C2" />
+        <Ellipse Fill="#FFD1711D" Height="60" HorizontalAlignment="Left" Margin="652,190,0,0" Name="ellipse52" Stroke="Black" VerticalAlignment="Top" Width="60" />
+        <Ellipse Height="50" Margin="657,195,71,0" Name="ellipse53" Stroke="Black" StrokeThickness="2" VerticalAlignment="Top" />
+        <Ellipse Fill="#FFCB7805" Height="30" HorizontalAlignment="Left" Margin="667,205,0,0" Name="ellipse54" Stroke="Black" StrokeThickness="0.5" VerticalAlignment="Top" Width="30" DataContext="{Binding}" />
+    </Grid>
+</Window>
